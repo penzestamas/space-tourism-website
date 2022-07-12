@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary-text-color: white;
+  --secondary-text-color: #D0D6F9;
+  --primary-button-color: white;
+  --secondary-button-color: #0B0D17;
+}
+body {
+  text-align: center;
+  padding: 1.5rem;
+}
+.header {
+  text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bellefair";
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+p {
+  font-family: "Barlow Condensed";
+  color: var(--secondary-text-color);
+}
+a {
+  font-family: "Barlow Condensed";
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* HELPERS */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.vertical-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* HEADER */
+.header__hr {
+  display: none;
+}
+.header__navbar {
+  display: none;
+}
+.header__navbar__item {
+  letter-spacing: 0.1rem;
+  font-size: 1.188rem;
+}
+.header__navbar__item__span {
+  font-weight: bold;
+}

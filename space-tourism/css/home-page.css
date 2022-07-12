@@ -1,0 +1,26 @@
+body {
+  background: url("../assets/home/background-home-mobile.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+.home-article {
+  line-height: 1.5;
+}
+.home-article__main-p {
+  letter-spacing: 0.1rem;
+  font-size: 1.188rem;
+  text-transform: uppercase;
+}
+.home-article__heading {
+  font-size: 5.5rem;
+}
+.explore-btn {
+  display: inline-block;
+  height: 9.375rem;
+  width: 9.375rem;
+  font-size: 1.438rem;
+  font-family: "Bellefair";
+  background-color: var(--primary-button-color);
+  color: var(--secondary-button-color);
+  padding: 3.9685rem 0;
+  border-radius: 100%;
+}
