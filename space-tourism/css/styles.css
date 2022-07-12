@@ -32,11 +32,12 @@ a {
 }
 
 /* HELPERS */
-.flex-container {
+.flex-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.vertical-flex-container {
+.vertical-flex-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -48,8 +49,21 @@ a {
 }
 .header__navbar {
   display: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 70vw;
+  height: 100vh;
+  padding: 15vh 5vw;
+  backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(35px);
+}
+.header__navbar__icon {
+  z-index: 1;
 }
 .header__navbar__item {
+  display: block;
+  margin: 2rem 1rem;
   letter-spacing: 0.1rem;
   font-size: 1.188rem;
 }

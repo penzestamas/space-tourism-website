@@ -19,8 +19,16 @@
 </head>
 <body>
   <div class="header">
-    <img class="header__logo" src="assets/shared/logo.svg" alt="logo">
-    <hr class="header__hr">
+    <div class="flex-wrapper">
+      <img class="header__logo" src="assets/shared/logo.svg" alt="logo">
+      <hr class="header__hr">
+
+      <!-- Hamburger menu icon -->
+      <a href="javascript:void(0);" class="header__navbar__icon" id="navbar-icon" onclick="myFunction()">
+        <img src="assets/shared/icon-hamburger.svg" alt="Hamburger icon">
+      </a>
+    </div>
+
     <div class="header__navbar" id="navbar">
       <a href="index.html" class="header__navbar__item header__navbar__item--active">
         <span class="header__navbar__item__span">00</span> Home
@@ -35,11 +43,6 @@
         <span class="header__navbar__item__span">03</span> Technology
       </a>
     </div>
-    <!-- Hamburger menu icon -->
-    <a href="javascript:void(0);" class="icon" id="navbar-icon" onclick="myFunction()">
-      <img src="assets/shared/icon-hamburger.svg" alt="Hamburger icon">
-    </a>
-
   </div>
   <div class="home-article">
     <p class="home-article__main-p">So, you want to travel to</p>

@@ -4,6 +4,8 @@ body {
 }
 .home-article {
   line-height: 1.5;
+  margin-top: 5vh;
+  margin-bottom: 20vh;
 }
 .home-article__main-p {
   letter-spacing: 0.1rem;
