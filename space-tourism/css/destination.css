@@ -1,0 +1,60 @@
+body {
+  background: url("../assets/destination/background-destination-mobile.jpg")
+              no-repeat fixed center;
+  background-size: cover;
+}
+.destination-img {
+  width: 50%;
+  padding: 1rem;
+}
+.destination-navbar {
+  align-items: flex-start;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+.destination-navbar__item {
+  color: var(--secondary-text-color);
+  letter-spacing: 0.1rem;
+}
+.destination-navbar__item--active {
+  color: var(--primary-text-color);
+}
+.destination-navbar__item--active:after {
+  content: "";
+  display: block;
+  height: 0.2rem;
+  width: 70%;
+  background-color: var(--primary-text-color);
+  margin-top: 0.5rem;
+}
+.destination-navbar__item:hover:after {
+  content: "";
+  display: block;
+  height: 0.2rem;
+  width: 70%;
+  background-color: var(--secondary-text-color);
+  margin-top: 0.5rem;
+}
+.article-title {
+  font-size: 3.5rem;
+}
+.destination-hr {
+  border-color: rgba(151,151,151,0.3);
+  margin: 2rem 0;
+}
+.quick-data {
+  margin-bottom: 1rem;
+}
+.quick-data__heading {
+  font-family: "Barlow Condensed";
+  color: var(--secondary-text-color);
+  font-size: 0.875rem;
+  line-height: 2.5;
+}
+.quick-data__p {
+  font-family: "Bellefair";
+  color: var(--primary-text-color);
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}

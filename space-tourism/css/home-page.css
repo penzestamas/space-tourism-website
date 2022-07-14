@@ -1,5 +1,6 @@
 body {
-  background: url("../assets/home/background-home-mobile.jpg") no-repeat fixed center;
+  background: url("../assets/home/background-home-mobile.jpg")
+              no-repeat fixed center;
   background-size: cover;
 }
 .home-article {
@@ -9,20 +10,27 @@ body {
 }
 .home-article__main-p {
   letter-spacing: 0.1rem;
-  font-size: 1.188rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 .home-article__heading {
-  font-size: 5.5rem;
+  font-size: 5rem;
 }
-.explore-btn {
-  display: inline-block;
+.explore-btn__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 9.375rem;
   width: 9.375rem;
-  font-size: 1.438rem;
-  font-family: "Bellefair";
   background-color: var(--primary-button-color);
-  color: var(--secondary-button-color);
-  padding: 3.9685rem 0;
   border-radius: 100%;
+  margin: auto;
+}
+.explore-btn__link:hover {
+  border: 1rem solid #979797;
+}
+.explore-btn__text {
+  font-size: 1.25rem;
+  font-family: "Bellefair";
+  color: var(--secondary-button-color);
 }
