@@ -1,0 +1,40 @@
+body {
+  background: url("../assets/crew/background-crew-mobile.jpg")
+              no-repeat fixed center;
+  background-size: cover;
+}
+.crew-img {
+  height: 30vh;
+}
+.crew-hr {
+  margin: 0;
+  border-color: var(--secondary-text-color);
+  opacity: 0.1;
+}
+.crew-navbar {
+  margin: 2rem auto;
+  width: 5.5rem;
+}
+.crew-navbar__item {
+  width: 0.625rem;
+  height: 0.625rem;
+  background-color: var(--secondary-text-color);
+  opacity: 0.3;
+  border-radius: 100%;
+}
+.crew-navbar__item--active {
+  background-color: var(--primary-text-color);
+  opacity: initial;
+}
+.crew-article__top-p {
+  color: var(--secondary-text-color);
+  opacity: 0.5;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed";
+  margin-bottom: 0.5rem;
+}
+.crew-article__heading {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
