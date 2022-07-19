@@ -54,17 +54,18 @@ a {
 }
 .header__navbar {
   display: none;
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 0;
   width: 70vw;
-  height: 100vh;
+  height: 100%;
   padding: 15vh 5vw;
   backdrop-filter: blur(35px);
   -webkit-backdrop-filter: blur(35px);
+  z-index: 1;
 }
 .header__navbar__icon {
-  z-index: 1;
+  z-index: 2;
 }
 .header__navbar__item {
   display: block;
@@ -74,4 +75,19 @@ a {
 }
 .header__navbar__item__span {
   font-weight: bold;
+}
+
+@media (min-width: 425px) {
+  .header__navbar {
+    display: block;
+  }
+  .header__navbar__icon {
+    display: none;
+  }
+  .header__navbar__item {
+    display: inline-block;
+  }
+  .header__navbar__item__span {
+    display: none;
+  }
 }
