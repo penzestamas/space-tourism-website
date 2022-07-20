@@ -34,3 +34,23 @@ body {
   font-family: "Bellefair";
   color: var(--secondary-button-color);
 }
+
+@media (min-width: 768px) {
+  .home-article {
+    margin: 15vh 15vw;
+  }
+  .home-article__main-p {
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+  }
+  .home-article__heading {
+    font-size: 9.375rem;
+  }
+  .explore-btn__link {
+    width: 15.125rem;
+    height: 15.125rem;
+  }
+  .explore-btn__text {
+    font-size: 2rem;
+  }
+}
