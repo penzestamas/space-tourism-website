@@ -74,6 +74,7 @@ a {
   width: 70vw;
   height: 100%;
   padding: 15vh 5vw;
+  padding-right: 0;
   backdrop-filter: blur(35px);
   -webkit-backdrop-filter: blur(35px);
   z-index: 1;
@@ -83,11 +84,15 @@ a {
 }
 .header__navbar__item {
   display: block;
-  margin: 2rem 1rem;
+  padding: 1rem;
+  padding-right: 0;
   letter-spacing: 0.1rem;
 }
 .header__navbar__item__span {
   font-weight: bold;
+}
+.header__navbar__item--active {
+  border-right: 0.2rem solid;
 }
 
 @media (min-width: 768px) {
@@ -106,8 +111,19 @@ a {
   }
   .header__navbar__item {
     display: initial;
+    padding: 0;
+    padding-bottom: 2.238rem;
+    margin: 1rem;
+  }
+  .header__navbar__item:hover {
+    border-right: none;
+    border-bottom: 0.2rem solid var(--secondary-text-color);
   }
   .header__navbar__item__span {
     display: none;
+  }
+  .header__navbar__item--active {
+    border-right: none;
+    border-bottom: 0.2rem solid;
   }
 }
