@@ -58,3 +58,23 @@ body {
   font-size: 1.75rem;
   text-transform: uppercase;
 }
+
+@media (min-width: 768px) {
+  .destination-navbar {
+    width: 30%;
+    margin: 2.5rem auto;
+  }
+  .article-title {
+    margin-bottom: 1rem;
+  }
+  .article {
+    margin: 0 10%;
+  }
+  .destination-hr {
+    margin: 3rem 10% 1rem;
+  }
+  .quick-data {
+    display: inline-block;
+    margin: 0 2rem 2rem;
+  }
+}

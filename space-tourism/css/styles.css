@@ -20,7 +20,14 @@ h1, h2, h3, h4, h5, h6 {
 .top-title {
   font-family: "Barlow Condensed";
   font-size: 1rem;
-  padding: 2rem;
+  padding: 2rem 0;
+}
+@media (min-width: 768px) {
+  .top-title {
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 3rem 0;
+  }
 }
 .top-title__span {
   color: #4e4e57;
